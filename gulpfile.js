@@ -20,7 +20,7 @@ gulp.task('cleancss', function(){
 // less compilation
 gulp.task('less', ['cleancss'], function(){
 	return gulp
-		.src('./src/less/**/*.less')
+		.src('./src/less/*.less')
 		.pipe(less())
 		.pipe(sourcemaps.init())
 		.pipe(postcss([autoprefixer()]))
