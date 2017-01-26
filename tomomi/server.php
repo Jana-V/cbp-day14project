@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Daniel's home</title>
-    <link rel="stylesheet" href="/dist/css/daniel.css">
+    <link rel="stylesheet" href="dist/css/daniel.css">
 
 </head>
 <body>
